@@ -51,5 +51,12 @@ public class Calculos {
 	public double areaTriangulo(double largura, double altura) {
 		return (this.largura*this.altura)/2;
 	}
+
+	@Override
+	public String toString() {
+		return "[altura=" + altura + ", largura=" + largura + "]";
+	}
+	
+	
 	
 }
